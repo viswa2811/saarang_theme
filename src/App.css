@@ -1,0 +1,79 @@
+html{
+  height:100%
+}
+body {
+  background-color: black;
+  height:100% !important;
+}
+#root{
+  height:100% !important;
+}
+
+.overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.container{
+  height:100%;
+  width: 100%;
+  background-color: black;
+}
+
+#logo{
+  position: absolute;
+  transition: all 1s;
+}
+.logotop{
+ top:0px;
+ left:0px;
+ width:13%;
+ z-index: 100000000;
+ margin-top: 15px;
+ margin-left: 15px; 
+}
+.logocenter{
+  z-index: 100000000;
+  top:12%;
+  left:12%;
+  width: 70%;
+}
+
+@media screen and (max-width:768px){
+  .home{
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+  .about{
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  .logotop{
+    top:0px;
+    left:0px;
+    width:35%;
+    z-index: 100000000;
+    margin-top: 8px;
+    margin-left: 8px; 
+  }
+ .logocenter{
+    z-index: 100000000;
+    top:35%;
+    left:10%;
+    width: 79%;
+    margin:0;
+  }
+} 
+
+/* IPad and IPad-Pro*/
+@media screen and (min-width: 768px) and (max-width: 1100px) and (min-height: 760px) {
+  .logocenter{
+    top:30%;
+    left:10%;
+    width: 80%;
+    margin:0;
+  }
+}
