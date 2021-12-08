@@ -1,0 +1,49 @@
+.card-1 {
+    background: url('../styles/images/AIML.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%
+}
+
+.card-2 {
+    background: url('../styles/images/Android.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%
+}
+
+.card-3 {
+    background: url('../styles/images/Hack.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%
+}
+
+.card-4 {
+    background: url('../styles/images/IC.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%
+}
+
+hr {
+    background-color: black;
+}
+
+.image1 {
+    height: '200px';
+}
+
+.heading {
+    font-size: '30px';
+}
+
+@media only screen and (max-width: 600px) {
+    .image1 { 
+        height: '300px';
+    }
+
+    .heading {
+        font-size: '20px';
+    } 
+}
